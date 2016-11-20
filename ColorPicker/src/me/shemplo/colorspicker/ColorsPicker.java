@@ -1,15 +1,12 @@
 package me.shemplo.colorspicker;
 
-import me.shemplo.handlers.ColorHandler;
-
 public class ColorsPicker {
 
-	public static void main (String [] args) {
-		ColorHandler ch = new ColorHandler ();
-		ch.offset = Integer.parseInt (args.length > 0 ? args [0] : "0");
-		
-		Thread t = new Thread (ch, "Handler");
-		t.start ();
-	}
+	public static final int WIDTH  = 300, 
+							HEIGHT = 200;
+	
+	public static final String TITLE = "Colors picker";
+	
+	public static void main (String [] args) { new ApplicationFrame (WIDTH, HEIGHT, TITLE); }
 	
 }
