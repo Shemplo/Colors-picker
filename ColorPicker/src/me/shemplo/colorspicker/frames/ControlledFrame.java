@@ -1,10 +1,10 @@
 package me.shemplo.colorspicker.frames;
 
-import java.awt.Canvas;
+import javax.swing.JPanel;
 
 import me.shemplo.colorspicker.ApplicationFrame;
 
-public abstract class ControlledFrame extends Canvas implements Runnable {
+public abstract class ControlledFrame extends JPanel implements Runnable {
 
 	//////////////////////////////////////////////////////////////////
 	private static final long serialVersionUID = 1758318684803461192L;

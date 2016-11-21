@@ -2,8 +2,8 @@ package me.shemplo.colorspicker;
 
 public class ColorsPicker {
 
-	public static final int WIDTH  = 300, 
-							HEIGHT = 200;
+	public static final int WIDTH  = 256, 
+							HEIGHT = 176;
 	
 	public static final String TITLE = "Colors picker";
 	
